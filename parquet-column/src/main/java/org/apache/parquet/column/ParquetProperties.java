@@ -52,7 +52,7 @@ public class ParquetProperties {
 
   public static final ValuesWriterFactory DEFAULT_VALUES_WRITER_FACTORY = new DefaultValuesWriterFactory();
 
-  private static final int MIN_SLAB_SIZE = 64;
+  private static final int MIN_SLAB_SIZE = 1;
 
   public enum WriterVersion {
     PARQUET_1_0 ("v1"),
